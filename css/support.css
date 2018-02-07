@@ -1,0 +1,357 @@
+#shoppingsum{
+	width: 296px;
+	height: 98px;
+	float: right;
+	background: #FFFFFF;
+	font-size: 12px;
+	text-align: center;
+	position: absolute;
+	z-index: 2;
+	right: 1px;
+	margin-top: 5px;
+	border: 1px solid #CCCCCC;
+	line-height: 100px;
+	display: none;
+}
+
+
+#item1{
+	width: 1349px;
+	height: 0px;
+	position: relative;
+	background: #FFFFFF;
+	z-index: 11;
+	float: left;
+	display: none;
+	border-top: 1px solid #CCCCCC;
+	left: -250px;
+	cursor: pointer;
+}
+
+/*#tabContainer*/ .tabitem{
+	list-style: none;
+	position: relative;
+	height: 300px;
+	background: #FFFFFF;
+	left: 30px;
+	margin-top: 20px;
+	float: left;
+	/*display: none;*/
+}
+
+/*#tabContainer */.tabitem li{
+	padding-right: 130px;
+	width: 160px;
+	float: left;
+	height: 120px;
+	margin-top: 40px;
+}
+
+/*#tabContainer */.tabitem li img{
+	width: 160px;
+	height: 120px;
+}
+
+.tabitem li p{
+	position: relative;
+	/*margin-left: 10px;*/
+	width: 160px;
+	text-align: center;
+}
+
+.tabitem li .description{
+	margin-top:-40px ;
+}
+
+#item2{
+	width: 1349px;
+	height: 0px;
+	position: relative;
+	background: #FFFFFF;
+	z-index: 11;
+	float: left;
+	clear: both;
+	display: none;
+	border-top: 1px solid #CCCCCC;
+	left: -369px;
+	cursor: pointer;
+}
+
+#item2 .tabitem{
+	left: 80px;
+}
+
+#item3{
+	width: 1349px;
+	height: 0px;
+	position: relative;
+	background: #FFFFFF;
+	z-index: 11;
+	float: left;
+	clear: both;
+	display: none;
+	border-top: 1px solid #CCCCCC;
+	left: -431px;
+	cursor: pointer;
+}
+
+#item3 .tabitem{
+	left: 130px;
+}
+
+#item4{
+	width: 1349px;
+	height: 0px;
+	position: relative;
+	background: #FFFFFF;
+	z-index: 11;
+	float: left;
+	clear: both;
+	display: none;
+	border-top: 1px solid #CCCCCC;
+	left: -431px;
+	cursor: pointer;
+}
+
+#item4 .tabitem{
+	left: 70px;
+}
+
+#item4 .tabitem li{
+	margin-right:35px ;
+}
+
+#item5{
+	width: 1349px;
+	height: 0px;
+	position: relative;
+	background: #FFFFFF;
+	z-index: 11;
+	float: left;
+	clear: both;
+	display: none;
+	border-top: 1px solid #CCCCCC;
+	left: -555px;
+	cursor: pointer;
+}
+
+#item5 .tabitem{
+	left: 90px;
+}
+
+/*#item6{
+	width: 1349px;
+	height: 300px;
+	position: relative;
+	background: #FFFFFF;
+	z-index: 7;
+	float: left;
+	clear: both;
+	display: none;
+	border-top: 1px solid #CCCCCC;
+	left: -555px;
+	cursor: pointer;
+}
+
+#item6 .tabitem{
+	left: 90px;
+}*/
+
+#item7{
+	width: 1349px;
+	height: 0px;
+	position: relative;
+	background: #FFFFFF;
+	z-index: 11;
+	float: left;
+	clear: both;
+	display: none;
+	border-top: 1px solid #CCCCCC;
+	left: -679px;
+	cursor: pointer;
+}
+
+#item7 .tabitem{
+	left: 90px;
+}
+
+#item8{
+	width: 1349px;
+	height: 0px;
+	position: relative;
+	background: #FFFFFF;
+	z-index: 11;
+	float: left;
+	clear: both;
+	display: none;
+	border-top: 1px solid #CCCCCC;
+	left: -741px;
+	cursor: pointer;
+}
+
+#item8 .tabitem{
+	left: 90px;
+}
+
+#tab1{
+	width: 800px;
+	height: 458px;
+	margin-left: 234px;
+	/*clear: both;*/
+	/*z-index: 5;*/
+	background: #FFFFFF;
+	position: relative;
+	display: none;
+	top: -71px;
+	border: 1px solid #CCCCCC;
+}
+
+.tablist{
+	position: absolute;
+	margin: 25px;
+	
+}
+
+
+.tablist li{
+	width: 220px;
+	height: 70px;
+	margin-left: 20px;
+	float: left;
+	
+}
+
+.tablist li p{
+	width: 130px;
+	height: 50px;
+	margin-left: 35px;
+	font-size: 14px;
+	color: #333333;
+	background: #FFFFFF;
+}
+
+.tablist li img{
+	position: absolute;
+	margin-top: 5px;
+	opacity: 1;
+	width: 35px;
+	height: 35px;
+}
+
+
+#tab2{
+	width: 800px;
+	height: 458px;
+	margin-left: 234px;
+	/*clear: both;*/
+	/*z-index: 5;*/
+	background: #FFFFFF;
+	position: relative;
+	display: none;
+	top: -111px;
+	border: 1px solid #CCCCCC;
+}
+
+#tab3{
+	width: 800px;
+	height: 458px;
+	margin-left: 234px;
+	/*clear: both;*/
+	/*z-index: 5;*/
+	background: #FFFFFF;
+	position: relative;
+	display: none;
+	top: -151px;
+	border: 1px solid #CCCCCC;
+}
+
+#tab4{
+	width: 800px;
+	height: 458px;
+	margin-left: 234px;
+	/*clear: both;*/
+	/*z-index: 5;*/
+	background: #FFFFFF;
+	position: relative;
+	display: none;
+	top: -191px;
+	border: 1px solid #CCCCCC;
+}
+
+#tab5{
+	width: 800px;
+	height: 458px;
+	margin-left: 234px;
+	/*clear: both;*/
+	/*z-index: 5;*/
+	background: #FFFFFF;
+	position: relative;
+	display: none;
+	top: -231px;
+	border: 1px solid #CCCCCC;
+}
+
+#tab6{
+	width: 800px;
+	height: 458px;
+	margin-left: 234px;
+	/*clear: both;*/
+	/*z-index: 5;*/
+	background: #FFFFFF;
+	position: relative;
+	display: none;
+	top: -271px;
+	border: 1px solid #CCCCCC;
+}
+
+#tab7{
+	width: 800px;
+	height: 458px;
+	margin-left: 234px;
+	/*clear: both;*/
+	/*z-index: 5;*/
+	background: #FFFFFF;
+	position: relative;
+	display: none;
+	top: -311px;
+	border: 1px solid #CCCCCC;
+}
+
+#tab8{
+	width: 800px;
+	height: 458px;
+	margin-left: 234px;
+	/*clear: both;*/
+	/*z-index: 5;*/
+	background: #FFFFFF;
+	position: relative;
+	display: none;
+	top: -351px;
+	border: 1px solid #CCCCCC;
+}
+
+#tab9{
+	width: 800px;
+	height: 458px;
+	margin-left: 234px;
+	/*clear: both;*/
+	/*z-index: 5;*/
+	background: #FFFFFF;
+	position: relative;
+	display: none;
+	top: -391px;
+	border: 1px solid #CCCCCC;
+}
+
+#tab10{
+	width: 800px;
+	height: 458px;
+	margin-left: 234px;
+	/*clear: both;*/
+	/*z-index: 5;*/
+	background: #FFFFFF;
+	position: relative;
+	display: none;
+	top: -431px;
+	border: 1px solid #CCCCCC;
+}
