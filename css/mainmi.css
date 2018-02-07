@@ -192,6 +192,7 @@ ul{
 	width: 1200px;
 	margin: 0 auto;
 	height: 480px;
+	margin-left:80px;
 	/*background-color: aquamarine;*/
 	position: relative;
 }
