@@ -368,6 +368,7 @@ ul{
 	width: 1200px;
 	margin: 0 auto;
 	margin-top: 20px;
+	margin-left:80px;
 }
 
 .title{
@@ -517,6 +518,7 @@ p{
 #recommened-box{
 	width: 1200px;
 	margin: 0 auto;
+	margin-left:80px;
 }
 
 #recommened-wrapper{
