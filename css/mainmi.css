@@ -117,6 +117,12 @@ ul{
 	padding: 0 10px;
 }
 
+#mistakenq{
+	margin-top: 40px;
+	font-size: 20px;
+	text-align: center;
+}
+
 .header-container #link-Nav{
 	height: 100px;
 	float: left;
